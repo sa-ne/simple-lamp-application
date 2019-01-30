@@ -3,10 +3,10 @@ This is a simple LAMP application written to support the simulation of applicati
 
 ## Database Schema
 Entries are stored in a table called *records*. The schema for the *records* table is as follows:
-| Column Name | Type | Attributes |
-| :--- | :--- | :--- |
-| id | MEDIUMINT | NOT NULL, AUTO_INCREMENT, PRIMARY KEY |
-| message | VARCHAR(255) | none |
+| Column Name | Type         | Attributes                            |
+| :---------- | :----------- | :------------------------------------ |
+| id          | MEDIUMINT    | NOT NULL, AUTO_INCREMENT, PRIMARY KEY |
+| message     | VARCHAR(255) | none                                  |
 To create the table, run the following SQL command:
 ```sql
 USE `my_database_name`;
